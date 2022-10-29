@@ -1,0 +1,32 @@
+/* Tags */
+.tags {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.tag {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 142.6%;
+    color: #ffffff;
+    list-style-type: none;
+    background: #FF6060;
+    border-radius: 10px;
+    padding: 0.3em 1.5em;
+    margin-right: 9px;
+}
+
+@media only screen and (max-width: 834px) {
+    .tags {
+        flex-wrap: wrap;
+        margin-top: 5px;
+    }
+
+    .tag {
+        border-radius: 5px;
+        font-size: 10px;
+        margin-top: 2px;
+    }
+
+}

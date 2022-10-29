@@ -1,0 +1,78 @@
+.Header {
+    max-width: 1240px;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF6060;
+    padding-left: 60px;
+}
+
+.Header .HeaderMobile {
+    display: none;
+}
+
+.Header ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.Header a:hover {
+    text-decoration-line: underline;
+}
+
+.Icon {
+    color: #FF6060;
+    align-items: center;
+    padding-left: 5px;
+    font-size: 5vmin;
+}
+
+.logo {
+    width: 211px;
+}
+
+@media (max-width: 868px) {
+    .Header .HeaderDesktop {
+        display: none;
+    }
+
+    .Header .HeaderMobile {
+        align-items: center;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .Header .HeaderMobile .BiMenu {
+        cursor: pointer;
+    }
+
+    .Header nav ul {
+        display: flex;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .Header nav ul li {
+        margin: 0 5px 0 5px;
+    }
+
+    .Header .HeaderMobile a {
+        text-transform: uppercase;
+        font-size: 14px;
+        padding: 0;
+        margin: 0 5px 0 5px;
+    }
+
+    .Header .logo {
+        width: 15vh;
+    }
+}

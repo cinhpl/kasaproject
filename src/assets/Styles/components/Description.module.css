@@ -1,0 +1,97 @@
+/* Description */
+.accommodation_details {
+    max-width: 1240px;
+    padding: 15px;
+    margin: auto;
+}
+
+.host_details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accommodation_title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 142.6%;
+    color: #FF6060;
+    margin-bottom: 0;
+}
+
+.location {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    color: #FF6060;
+    margin-top: 0;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    width: 582px;
+}
+
+.host_elements {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.dropdown_description {
+    width: 582px;
+    flex: 1 1 auto;
+}
+
+.dropdown_acco {
+    display: flex;
+    justify-content: space-between;
+    width: 1240px;
+    height: 643px;
+    margin: auto;
+}
+
+.host_rating {
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 834px) {
+    .accommodation_details {
+        padding: 0;
+    }
+
+    .host_details {
+        flex-direction: column;
+    }
+
+    .accommodation_title {
+        font-size: 18px;
+    }
+
+    .location {
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .host_elements {
+        flex-direction: column;
+        margin: 20px 0 20px 0;
+    }
+
+    .dropdown_description {
+        width: 100%;
+    }
+
+    .host_rating {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+
+}

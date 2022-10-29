@@ -1,0 +1,9 @@
+.accommodations {
+    margin: auto;
+}
+
+@media only screen and (max-width: 834px) {
+    .accommodations {
+        margin: 3%;
+    }
+}

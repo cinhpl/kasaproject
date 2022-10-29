@@ -1,0 +1,39 @@
+/* Host */
+.details {
+    display: flex;
+    margin-top: 24.12px;
+    justify-content: flex-end;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FF6060;
+    margin-right: 10px;
+    width: 92px;
+    text-align: end;
+}
+
+.portrait {
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    background: #C4C4C4;
+}
+
+@media only screen and (max-width: 834px) {
+    .details {
+        margin: 0;
+    }
+
+    .name {
+        font-size: 12px;
+    }
+
+    .portrait {
+        width: 32px;
+        height: 32px;
+    }
+
+}
