@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import styles from '../assets/Styles/components/Banner.module.css';
 
 class Banner extends Component {
@@ -14,7 +14,8 @@ class Banner extends Component {
         <div className={styles.bannerAbout} />
       </div>
     );
-  }
-}
+  };
+};
 
 export default Banner;
+

@@ -4,7 +4,7 @@ import { CgMenuRound } from 'react-icons/cg';
 import { CgCloseO } from 'react-icons/cg';
 import { useState } from 'react';
 
-const HeaderMobile = () => {
+export default function HeaderMobile() {
 
     const [open, setOpen] = useState(false);
 
@@ -24,6 +24,5 @@ const HeaderMobile = () => {
         {open && <NavLinks isResponsive={true} closeNav={closeNav} />}
         </nav>
     )
-}
+};
 
-export default HeaderMobile

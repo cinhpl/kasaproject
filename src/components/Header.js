@@ -4,7 +4,7 @@ import NavDesktop from '../components/Header/NavDesktop';
 import NavResponsive from '../components/Header/NavResponsive';
 import { Link } from 'react-router-dom';
 
-const Header = () => {
+export default function Header() {
     return (
         <div className={styles.Header}>
             <Link to ='/'>
@@ -13,7 +13,5 @@ const Header = () => {
             <NavResponsive />
             <NavDesktop />
         </div>
-    )
-}
-
-export default Header 
+    );
+};

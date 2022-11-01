@@ -1,8 +1,9 @@
 import Star from "../assets/Images/starfull.png";
 import StarEmpty from "../assets/Images/starempty.png";
+
 import styles from '../assets/Styles/components/Rating.module.css';
 
-function Rate({ rating }) {
+export default function Rate({ rating }) {
   const range = [1, 2, 3, 4, 5];
   
   return (
@@ -16,6 +17,5 @@ function Rate({ rating }) {
       )}
     </div>
   );
-}
+};
 
-export default Rate;

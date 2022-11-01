@@ -1,12 +1,10 @@
-import React from 'react';
 import accordionData from "../assets/content.json";
 import '../assets/Styles/pages/About.css';
 
-// Import des composants 
 import Banner from '../components/Banner';
 import Dropdown from '../components/Dropdown';
 
-const About = () => {
+export default function About() {
   return (
     <section className='about'>
       <div>
@@ -25,5 +23,4 @@ const About = () => {
   );
 };
 
-export default About
 

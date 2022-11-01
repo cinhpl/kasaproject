@@ -1,13 +1,13 @@
 import NavLinks from './NavLinks';
 import styles from '../../assets/Styles/components/Header.module.css';
 
-const HeaderDesktop = () => {
+export default function HeaderDesktop() {
     return (
         <nav className={styles.HeaderDesktop} >
-        <NavLinks />
+            <NavLinks />
         </nav>
-    )
-}
+    );
+};
 
-export default HeaderDesktop
+
 

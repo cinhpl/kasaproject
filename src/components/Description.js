@@ -1,11 +1,12 @@
-import React from 'react';
 import Dropdown from "./Dropdown";
 import Host from "./Host";
 import Rating from "./Rating";
 import Tag from "./Tags";
+
 import styles from '../assets/Styles/components/Description.module.css';
 
-function Description({
+// Organise la structure du code html dans la page d'un logement
+export default function Description({
   title,
   description,
   host,
@@ -38,7 +39,3 @@ function Description({
     </div>
   );
 }
-
-export default Description;
-
-// utilisé props pour l

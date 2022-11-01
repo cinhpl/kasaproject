@@ -39,7 +39,32 @@
     width: 211px;
 }
 
-@media (max-width: 868px) {
+@media (max-width: 868px) and (min-width: 376px) {
+
+    .Header nav ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .Header nav ul li a {
+        margin: 0 5px 0 5px;
+        font-size: 16px;
+        padding-left: 20px;
+    }
+
+    .Header a {
+        text-transform: uppercase;
+        font-size: 12px;
+        padding: 0;
+        margin: 0 5px 0 5px;
+    }
+
+    .Header .logo {
+        width: 8vh;
+    }
+}
+
+@media only screen and (max-width: 375px) {
     .Header .HeaderDesktop {
         display: none;
     }
@@ -61,8 +86,9 @@
         margin: 0;
     }
 
-    .Header nav ul li {
+    .Header nav ul li a {
         margin: 0 5px 0 5px;
+        padding-left: 15px;
     }
 
     .Header .HeaderMobile a {
@@ -73,6 +99,6 @@
     }
 
     .Header .logo {
-        width: 15vh;
+        width: 6vh;
     }
 }
