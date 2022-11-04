@@ -14,8 +14,8 @@ export default function Carousel(props) {
   }, []) 
 
   const previousSlide = () => {
-    if(slides === props.pictures.length -1) {
-      setSlides(0)
+    if (slides === 0) {
+      setSlides(props.pictures.length -1)
     } else {
       setSlides(slides -1)
     }
@@ -46,4 +46,3 @@ export default function Carousel(props) {
     </section>
   );
 };
-
